@@ -12,8 +12,12 @@
         android:theme="@style/Theme.Aston_intensiv_1"
         tools:targetApi="33">
         <activity
+            android:name=".presentation.SecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
